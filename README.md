@@ -2,7 +2,7 @@
 
 El siguiente código muestra la distribucion de edades de un dataset 
 
-Para dicho análisis se implementó la librería de ** pandas ** 
+Para dicho análisis se implementó la librería de **pandas** 
 la cual nos permite trabajar con dataframes, de igual forma se implementó la libería re, la cuál nos permitirá extrar espresiones regulares.
 
 - Lectura del csv
@@ -31,6 +31,17 @@ df['edad'] = df['year_INGRESO'].astype(int) - df['complete_RFC'].astype(int)
 df
 
 ```
+
+![Dataset](https://github.com/Kevincastillo98/Distribucion_Edades/blob/master/dataset.png)
+
+- Graficamos la distribución de edades por sexo.
+
+![Distribucion](https://github.com/Kevincastillo98/Distribucion_Edades/blob/master/dist.png)
+
+
+- Creamos un histograma de las edades,por sexo.
+
+![Histograma](https://github.com/Kevincastillo98/Distribucion_Edades/blob/master/hist.png)
 
 
 
