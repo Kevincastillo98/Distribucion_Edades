@@ -36,10 +36,19 @@ df
 
 - Graficamos la distribución de edades por sexo.
 
+``` python
+df.groupby('GENERO').edad.plot(kind='kde')
+plt.legend();
+```
+
 ![Distribucion](https://github.com/Kevincastillo98/Distribucion_Edades/blob/master/dist.png)
 
 
 - Creamos un histograma de las edades,por sexo.
+
+``` python
+df.groupby('GENERO').edad.hist()
+```
 
 ![Histograma](https://github.com/Kevincastillo98/Distribucion_Edades/blob/master/hist.png)
 
